@@ -36,3 +36,5 @@ product<-aggregate(subset[, 1:46], list(subset$subject, subset$activity), mean)
 
 #create dataset for submission
 write.table(product, row.names = F, file = "assignment.txt")
+
+product
